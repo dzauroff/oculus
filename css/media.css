@@ -1,0 +1,51 @@
+@media (max-width: 992px) {
+    .tabs {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1000px) {
+    .tabs__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .equipment__box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .accessories__items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+@media (max-width: 635px) {
+    .hero {
+        text-align: center;
+    }
+    .hero-content {
+        padding: 30px;
+    }
+    .hero__title {
+        font-size: 50px;
+    }
+}
+@media (max-width: 330px) {
+    .hero-content {
+        padding: 20px;
+    }
+    .hero__title {
+        font-size: 38px;
+        margin-bottom: 0;
+    }
+    .hero__desc {
+        font-size: 26px;
+    }
+    .text {
+        padding: 20px 93px;
+    }
+    .price {
+        padding: 20px 87px;
+    }
+}
